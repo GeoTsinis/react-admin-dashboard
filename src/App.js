@@ -9,10 +9,11 @@ import Team from "./screens/team";
 import Invoices from "./screens/invoices";
 import Contacts from "./screens/contacts";
 // import Bar from "./screens/bar";
+import FAQ from "./screens/faq";
 import Form from "./screens/form";
 // import Line from "./screens/line";
 // import Pie from "./screens/pie";
-// import FAQ from "./screens/faq";
+
 // import Geography from "./screens/geography";
 import Calendar from "./screens/calendar";
 
@@ -35,9 +36,10 @@ function App() {
               <Route path='/invoices' element= {<Invoices />} />
               <Route path='/form' element= {<Form />} />
               <Route path='/calendar' element= {<Calendar />} />{/* <Route path='/bar' element= {<Bar />} /> */}
+              <Route path='/faq' element= {<FAQ />} />
               {/* <Route path='/pie' element= {<Pie />} /> */}
               {/* <Route path='/line' element= {<Line />} /> */}
-              {/* <Route path='/faq' element= {<FAQ />} /> */}
+              
               {/* <Route path='/geography' element= {<Geography />} /> */}
               
             </Routes>
